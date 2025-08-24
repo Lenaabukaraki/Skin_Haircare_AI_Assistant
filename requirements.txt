@@ -1,0 +1,10 @@
+transformers>=4.42
+torch # (CPU by default). For NVIDIA GPU, install a matching CUDA build from pytorch.org
+huggingface_hub>=0.23
+pillow
+streamlit>=1.34
+gTTS
+requests
+python-dotenv # optional: to load HF_API_TOKEN from a .env file during local dev
+# Optional if you want in‑browser mic capture (see app code):
+# streamlit-mic-recorder
